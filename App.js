@@ -1,3 +1,5 @@
+// joao pedro ribeiro silva
+
 import React from 'react';
 import styled from 'styled-components/native';
 import { Image } from 'react-native';
@@ -47,6 +49,10 @@ function App() {
 
       <Header>
 
+        {/**
+         * imagens que foram levantadas dos arquivos
+         * "quadrado"
+         */}
         <Quadrado cor="#ADFF2F">
           <Image source = {require('./src/images/RobertoCarlos.jpg')}
             style = {{ width: 180, height: 180, backgroundColor: '#AAA' }}
@@ -74,8 +80,11 @@ function App() {
             resizeMode='cover'
           />
         </Quadrado>
-
-
+        
+        {/**
+         * imagens que foram levantadas dos arquivos
+         * "quadrado1"
+         */}
         <Quadrado1 cor="#32CD32">
           <Image source = {{uri:'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnoticiasdatv.uol.com.br%2Fmedia%2Fuploads%2Fartigos%2Froberto-carlos-especial-globo-fim-de-ano-2020-foto-mauricio-fidalgo.jpg&f=1&nofb=1'}}
             style = {{ width: 380, height: 180, backgroundColor: '#AAA' }}
